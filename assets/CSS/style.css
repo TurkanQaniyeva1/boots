@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block !important;
+    margin-top: 0;
+  }
+  .nav-item.dropdown .nav-link:hover {
+    color: #6995b1 !important; /* Hover rengi */
+  }
+.nav-item .nav-link:hover{
+    color: #6995b1 !important;
+}
+.textstyle{
+    top: 100px;
+    left: 170px;
+}
+.textstyle a{
+    transition: 0.4s;
+}
+.textstyle a i{
+    transition: 0.3s;
+}
+.textstyle a:hover{
+    background-color: black;
+    color: #fff;
+}
+.textstyle a:hover i{
+    padding-left: 10px;
+}
+.custom-font-size{
+    font-size: 7rem !important;
+}
+.text-custom{
+    color: #8d8d8d;
+    width: 600px;
+}
+.dropdown-menu .dropdown-item:hover{
+        background-color: #343434;
+    }
+    .item-price{
+        color: #6995b1 !important;
+    }
+    .text-a{
+        transition: 0.4s;
+    }
+    .text-a:hover{
+        color: #6995b1 !important;
+    }
+    .but{
+        top: 170px;
+        left: 50px;
+        background-color: #fff;
+    }
+    .but button{
+        background: none !important;
+    }
+    .card:hover .but{
+        display: block !important; 
+        cursor: pointer;
+    }
+    .col{
+        width: 400px !important;
+        margin-top: 30px;
+    }
+    .col img{
+        width: 100% !important;
+    }
+    .right .col{
+         width: 500px !important;
+    }
+    .right .col img{
+        width: 100% !important;
+    }
+    .collection{
+        top: 100px;
+        right: 30px;
+        width: 300px;
+    }
+    .basic{
+        top: 50px;
+        left: 60px;
+        width: 250px;
+    }
+    .basic h4{
+        color: #8d8d8d;
+    }
+    .basic h2{
+        font-size: 50px !important;
+    }
+    .basic a{
+        transition: 0.4s;
+    }
+    .basic a:hover{
+        color: #6995b1 !important;
+    }
+    .basic a i{
+        transition: 0.4s;
+    }
+    .basic a:hover i{
+        padding-left: 5px;
+    }
+    .collection h4{
+        color: #8d8d8d ;
+    }
+    .collection h2{
+        font-size: 80px !important;
+    }
+    .collection p{
+        color: #8d8d8d;
+    }
+    .collection a{
+        transition: 0.4s;
+    }
+    .collection a:hover{
+        color: #6995b1 !important;
+    }
+    .collection a i{
+        transition: 0.4s;
+    }
+    .collection a:hover i{
+        padding-left: 5px;
+    }
+    .list{
+        color: #8d8d8d;
+    }
+    .list a{
+        color: #8d8d8d !important;
+    }
+    .list-unstyled li a:hover{
+        color: #6995b1 !important;
+    }
+    .icns i:hover{
+        color: #6995b1 !important;
+        cursor: pointer;
+    }
+.payment-method p{
+    color: #8d8d8d;
+    padding-right: 10px;
+}
+.pay{
+    color: #8d8d8d;
+}
+.pay a{
+    color: #6995b1;
+}
+  @media(max-width:600px){
+    .navbar-nav{
+        display: none !important;
+    }
+  }
